@@ -1,10 +1,23 @@
-body {
-    padding: 150px 350px;
+.sideImage {
+    margin: 25px 40px;
+    padding: 40px;
+    border: 25px;
 }
-
-.line {
-    font-size: 145px;
+.xButton{
+    margin-left: 40px;
+    padding: 20px;
+}
+.oButton{
+    margin-left: 40px;
     padding: 10px;
+}
+.ticTable{
+    margin-top: 25px;
+    margin-left: 180px;
+}
+.line {
+    font-size: 130px;
+    image-orientation: unset;
 }
 
 .lGrid {
