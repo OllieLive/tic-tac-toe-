@@ -1,0 +1,17 @@
+body {
+    padding: 150px 350px;
+}
+
+.line {
+    font-size: 145px;
+    padding: 10px;
+}
+
+.lGrid {
+    border-left: 6px solid blue;
+    height: 50px;
+}
+.hGrid{
+    border-bottom: 6px solid red;
+    width: 50px;
+}
