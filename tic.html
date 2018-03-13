@@ -5,19 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <link rel="stylesheet" href="tac.css">
     <title>Tic Tac Toe</title>
 </head>
 
 <body>
-    <ul class="sideImage">
+    <ul class="sideImage" ondrop="drop(event)" ondragover="allowDrop(event)">
         <span>Player one
-            <img class="xButton" id="xButton" src="img/tic_X.png" alt="X">
+            <img class="xButton" id="xButton" src="img/tic_X.png" alt="X" draggable="true">
         </span>
         <span>Player two
-            <img class="oButton" id="oButton" src="img/tic_O.png" alt="O">
+            <img class="oButton" id="oButton" src="img/tic_O.png" alt="O" draggable="true">
         </span>
     </ul>
     <div class="ticTable">
